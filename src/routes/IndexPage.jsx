@@ -18,11 +18,10 @@ function IndexPage() {
 
     return (
         <div className="IndexPage">
-            <div className="IndexPage-overlay"></div>
             <div className="IndexPage-container">
                 <div className='IndexPage-content'>
                     <div className="IndexPage-text">
-                        <h1>Bonjour, je suis Ethan Ehrler</h1>
+                        <h1>Ethan Ehrler</h1>
                         <h2>Développeur web</h2>
                     </div>
                     <div className='Contact-container'>
@@ -40,11 +39,11 @@ function IndexPage() {
                 <div className='IndexPage-content'>
                     <div className={aboutButtonClicked ? "About-content-text" : "About-content-text About-content-text-full"} onClick={aboutButtonClickedFunc}>
                         <button className="About-button" onClick={aboutButtonClickedFunc}><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m7 10l5 5l5-5"/></svg></button>
-                        <p>Diplômé du BUT Informatique à l'IUT 2 de Grenoble et passionné par le développement web ainsi que le design, ma curiosité me pousse constamment à apprendre de nouvelles choses.
+                        <p>Diplômé du BUT Informatique à l'IUT 2 de Grenoble, je suis actuellement développeur web front-end chez Erplain. Dans mon rôle, je m'attache à concevoir des interfaces modernes et intuitives, tout en exploitant les technologies les plus récentes.
+                        Je suis particulièrement intéressé par les frameworks modernes comme React, qui me permettent de créer des applications dynamiques et modulaires, tout en explorant en continu les bonnes pratiques du développement front-end.
                         </p>
-                        <p>J'ai acquis une certaine expérience professionnelle, notamment lors d'un stage de développeur web au Laboratoire Informatique de Grenoble (LIG) en 2023, et une alternance en tant que développeur web chez Sercel Grenoble en 2023-2024. Tout au long de ces expériences, j'ai pu développer de nombreuses compétences en divers langages de programmation, en gestion de projet, en communication et en travail d'équipe à travers des projets variés.
+                        <p>En dehors du travail, je suis passionné par l’hardware et le gaming, deux univers où technologie et créativité se rejoignent. J’aime assembler des configurations sur mesure, découvrir les dernières innovations et m’investir dans des expériences de jeu compétitives.
                         </p>
-                        <p>Si mon profil vous intéresse, vous pouvez me contacter par mail à <a href="mailto: ethan.ehrler@outlook.com">ethan.ehrler@outlook.com</a>, par téléphone au <a href="tel: 06 16 52 07 25">06 16 52 07 25</a> ou via <a target="_blank" href="http://www.linkedin.com/in/ethan-ehrler-b5855a251">LinkedIn</a>.</p>
                         <br />
                     </div>
                 </div>

@@ -1,7 +1,4 @@
 .Skills {
-    background: url("https://images5.alphacoders.com/501/501150.jpg"), no-repeat center;
-    background-attachment: fixed;
-    background-size: cover;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -17,6 +14,9 @@
 }
 
 .Skills-container h1 {
+    z-index: 1;
+    font-family: 'Newton';
+    font-weight: 100;
     font-size: calc(20px + 3vmin);
     margin-top: 0;
     margin-bottom: 0;
@@ -32,7 +32,7 @@
 }
 
 .Skills-card {
-    background: rgba(129, 122, 122, 0.14)!important;
+    background: rgba(83, 80, 80, 0.14)!important;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);

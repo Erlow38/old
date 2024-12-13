@@ -1,8 +1,5 @@
 .IndexPage {
     text-align: center;
-    background: url("https://a-static.besthdwallpaper.com/the-earth-wallpaper-3840x2160-1673_54.jpg") no-repeat top;
-    background-size: cover;
-    background-attachment: fixed;
     min-height: 100vh;
     position: relative;
     display: flex;
@@ -30,13 +27,17 @@
     flex-direction: column;
 }
 .IndexPage-container h1 {
-    font-size: calc(30px + 2vmin);
+    font-family: 'Newton';
+    font-weight: 100;
+    font-size: calc(70px + 2vmin);
+    font-weight: 100;
     color: #fff;
     padding: 0;
     margin: 0;
 }
 
 .IndexPage-container h2 {
+    font-family: 'Newton';
     font-size: calc(10px + 2vmin);
     color: #fff;
     margin: 0 0 2rem 0;
@@ -75,15 +76,20 @@
     margin-top: 2rem;
     height: 100px;
     overflow: hidden;
-    background: rgba(129, 122, 122, 0.14)!important;
-    transition: ease-in-out 0.5s;
+    background: rgba(83, 80, 80, 0.14)!important;
+    transition: ease-in-out 0.3s;
+}
+
+.About-content-text:hover {
+    cursor: pointer;
+    scale: 1.008;
 }
 
 .About-content-text-full {
     height: 100%;
     margin-bottom: 1rem;
     padding-bottom: 3rem!important;
-    background: rgba(255, 255, 255, 0.14)!important;
+    background: rgba(22, 22, 22, 0.712)!important;
 }
 
 .About-content-text p {
@@ -96,7 +102,7 @@
     right: 50%;
     transform: translateX(50%);
     color: #fff;
-    background-color: #080e17f3;
+    background-color: #080808;
     border-top: 1px solid #fff;
     border-left: 1px solid #fff;
     border-right: 1px solid #fff;

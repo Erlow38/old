@@ -1,8 +1,4 @@
 .Experiences {
-    background: url("https://images5.alphacoders.com/501/501150.jpg"), no-repeat center;
-    background-size: cover;
-    position: absolute;
-    background-attachment: fixed;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -19,6 +15,9 @@
 }
 
 .Experiences-container h1 {
+    z-index: 1;
+    font-family: 'Newton';
+    font-weight: 100;
     font-size: calc(20px + 3vmin);
     margin-top: 0;
     margin-bottom: 0;
