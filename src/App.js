@@ -7,7 +7,7 @@ import Experiences from "./routes/Experiences";
 import TroisDimension from './routes/TroisDimension';
 import { Routes, Route } from 'react-router-dom';
 import TOPOLOGY from 'vanta/src/vanta.topology';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 function App() {
 
