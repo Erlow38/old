@@ -31,8 +31,9 @@
     font-weight: 100;
     font-size: calc(70px + 2vmin);
     font-weight: 100;
+    line-height: calc(70px + 2vmin);
     color: #fff;
-    padding: 0;
+    padding-bottom: 2rem;
     margin: 0;
 }
 
